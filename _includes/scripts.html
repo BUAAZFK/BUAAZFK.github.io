@@ -1,4 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
-
+<script defer>
+  let mb = document.getElementsByClassName('masthead__menu-item--lg')[0].getElementsByTagName('a')[0];
+  mb['href'] = 'https://www.zhangfukang.xyz/';
+</script>
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

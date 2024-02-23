@@ -13,7 +13,9 @@
           {% else %}
             {% assign domain = base_path %}
           {% endif %}
-
+          <script>
+            console.log({{domain}}{{nav.url}})
+          </script>
           <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
@@ -44,3 +46,7 @@
     {% endfor %}
   </ul>
 </nav>
+<script>
+  let mb = document.getElementsByClassName('masthead__menu-item--lg')[0].getElementsByTagName('a')[0];
+  mb['href'] = 'https://www.zhangfukang.xyz/'
+</script>
