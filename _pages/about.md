@@ -10,7 +10,7 @@ redirect_from:
 ------
 I am Fukang Zhang ( 张福康 ), currently an senior student in the [School of Economics and Management at Beihang University](https://sem.buaa.edu.cn/). I have got the offer from the National Institute of Engineering Excellence, during the postgraduate I will work in the field of __software and optimize algorithms__.
 
-My undergraduate major is Information management and information system.
+My undergraduate major is **Information management and information** system.
 
 News
 ------
